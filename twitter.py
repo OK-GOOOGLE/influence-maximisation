@@ -7,10 +7,10 @@ from pymongo import MongoClient
 import pymongo
 import initReputation as alg
 
-consumer_key = '8KxiBh7H9xhUvjKfeBvjNHTGX'
-consumer_secret = 'WZHJOh7ZYEsNBsbbltruUMhMXsmurz9J3cTWHeDbeUSk9TLVuO'
-access_token = '805914750848794625-uhw7NpoR2G2tNJuvJXPSzPVZQG5UfTF'
-access_secret = '2S0sCT424c3ypIBYas4hU8wzPw5STaDLNPBuXVTkmuLeY'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_secret = ''
 
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
